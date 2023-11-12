@@ -3,7 +3,7 @@ Khi bạn chạy git revert, Git sẽ mở một trình soạn thảo hoặc tr�
 Lưu ý rằng nếu có xung đột giữa commit bạn đang cố gỡ bỏ và các commit mới, bạn sẽ cần giải quyết xung đột trước khi commit mới được tạo ra.
 
 Cách tiếp cận này thích hợp khi bạn đã đẩy commit lên một repository chia sẻ và không muốn làm thay đổi lịch sử đã chia sẻ. Ngược lại, nếu bạn chỉ làm việc trên branch cá nhân và không có ai khác làm việc trên branch đó, git reset có thể là một cách tiếp cận đơn giản hơn.
-
+toi da change o b2
 
 User
 cách xem lich su commit

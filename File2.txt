@@ -1,0 +1,14 @@
+	@Test
+	public void verifyHomepageTitle() {
+		String baseUrl = "http://demo.guru99.com/test/newtours/";
+		String driverPath = "Driver\\chromedriver.exe";
+		WebDriver driver;
+		System.out.println("Welcome to this page");
+		System.setProperty("webdriver.chrome.driver", driverPath);
+		driver = new ChromeDriver();
+		driver.get(baseUrl);
+		String expectedTitle = "Welcome: Mercury Tours";
+		String actualTitle = driver.getTitle();
+		Assert.assertEquals(actualTitle, expectedTitle);
+		driver.close();
+	}

@@ -114,6 +114,6 @@ Khi bạn đã git add một số file và muốn bỏ chúng khỏi index, bạ
 Lưu ý rằng việc sử dụng git reset có thể thay đổi lịch sử commit và nên được sử dụng cẩn thận, đặc biệt là với các commit đã được chia sẻ giữa nhiều người dùng.
 
 
-
+llllllllllllllllllllllllllllllllllll
 
 
